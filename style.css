@@ -2,9 +2,26 @@
 "https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"); 
 
 body { 
-	/* background-color: #000;  */
+	/* filter: blur(10px); */
 	color: #333; 
 	font-family: "Roboto Mono", monospace; 
+
+} 
+
+.background { 
+	position: absolute; 
+	background-image: url("https://i.pinimg.com/736x/b8/91/ef/b891ef5517f79c681cc3223d22ea4632.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center; 
+    border-image: fill 0 linear-gradient(rgba(22, 21, 21, 0.2), #000);
+	height: 100%; 
+	width: 100%; 
+	top: 0;
+	left: 0;
+	filter: blur(2px); 
+	z-index: -1; 
 } 
 
 .generator { 
@@ -13,6 +30,28 @@ body {
 	margin: 150px auto; 
 	padding: 20px; 
 	border-radius: 10px; 
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+/* background: rgba( 255, 255, 255, 0.05 ); 
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+
+/* background: rgba( 0, 0, 0, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+
+background: rgba( 0, 0, 0, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 } 
 
 div.password { 
